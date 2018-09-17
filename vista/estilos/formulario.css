@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-ene-2017, 19:50:08
+    Author     : Vlado
+*/
+*{
+    margin: 0;
+    font-family: monospace;
+}
+
+.selectron{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background-color: rgba(68, 141, 0, .6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: none;
+}
+
+input#botonazo{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+input#botonazo:hover{
+    cursor:pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+@media(max-width:980px){
+    form{
+        width: 100%;
+        margin-top: 25%;
+    }
+}
